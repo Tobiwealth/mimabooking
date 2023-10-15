@@ -6,7 +6,7 @@ import ExploreFrance from './ExploreFrance';
 
 const Main = () => {
 	return (
-		<main className="w-full">
+		<main className="w-full flex-grow pl-4 pr-4">
 			<Heading/>
 			<Herosection/>
 			<TrendingDestination/>

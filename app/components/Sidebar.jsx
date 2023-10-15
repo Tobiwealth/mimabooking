@@ -12,7 +12,7 @@ const Sidebar = () => {
 	const [closeMobile, setCloseMobile] = useState(false);
 
 	return (
-		<section className="h-full bg-white w-[14rem] lg:w-[16rem] rounded-r-[30px] p-8  ">
+		<section className="h-full bg-white w-[14rem] lg:w-[15rem] rounded-r-[30px] p-8  ">
 		    {closeMobile ? <FaTimes className="md:hidden absolute top-2 right-8" onClick={() => setCloseMobile(false)}/> : <AiOutlineMenu className="md:hidden absolute top-2 right-8" onClick={() => setCloseMobile(true)}/> }
 			<div className="hidden md:flex flex-col justify-between h-screen bg-white pb-16">
 				<div className="flex flex-col justify-center items-center gap-4">

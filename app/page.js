@@ -4,7 +4,7 @@ import Main from './components/Main'
 
 export default function Home() {
   return (
-    <main className="bg-[#FAFAFA] md:grid grid-cols-[16rem_1fr] w-screen">
+    <main className="bg-[#FAFAFA] md:grid grid-cols-[15rem,1fr] w-screen">
       <Sidebar/>
       <Main/>
     </main>

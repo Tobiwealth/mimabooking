@@ -5,8 +5,8 @@ import { PiSealCheck } from 'react-icons/pi';
 
 const Herosection = () => {
 	return (
-		<section className="w-full p-8 flex flex-col items-center relative">
-			<div className="w-full h-[200px] lg:h-[300px]">
+		<section className="w-full p-12 flex flex-col items-center relative">
+			<div className="w-full h-[200px] lg:h-[300px] p-4">
 				<Image 
 				    src='/furniture.jpg'
 				    height={300}
@@ -17,7 +17,7 @@ const Herosection = () => {
 				    className="rounded-[50px] aspect-[16/8] md:aspect-[16/4] w-full"
 				/>
 			</div>
-			<div className="grid grid-cols-2 lg:flex justify-between gap-8 items-center text-[#0C0B4866] font-semibold text-xs lg:text-base p-3 lg:pl-8 lg:pr-8 lg:ml-16 lg:mr-16 rounded-[20px] bg-white absolute bottom-6 lg:-bottom-6 ">
+			<div className="grid grid-cols-2 lg:flex justify-between gap-8 items-center text-[#0C0B4866] font-semibold text-xs lg:text-base p-3 lg:pl-8 lg:pr-8 lg:ml-16 lg:mr-16 rounded-[20px] bg-white absolute bottom-6 lg:-bottom-1 ">
 				<div className="flex justify-between items-center lg:gap-12 lg:mr-auto lg:border-r-[2px] lg:pr-8">
 					<span className="flex gap-2 items-center"><IoLocationOutline/> Where Are You Going?</span> <FiChevronDown className=""/>
 				</div>
