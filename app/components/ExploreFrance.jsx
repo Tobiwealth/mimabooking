@@ -20,7 +20,7 @@ const ExploreFrance = () => {
 				<div className="flex justify-between items-center w-[24rem] gap-4 p-4 rounded-[20px] bg-white shadow-sm">
 					<Image src='/arc.jpeg' width={100} height={50} quality={100} alt="Picture of the user" className="aspect-square rounded-[12px]"/>
 				    <div className="text-xs font-medium text-[#0C0B4866] flex flex-col justify-center gap-2">
-				    	<h3 className="text-sm font-bold text-[#152238]">L'Arc de Triomphe de l'Etoile</h3>
+				    	<h3 className="text-sm font-bold text-[#152238]">LArc de Triomphe de lEtoile</h3>
 				    	<p>One of our best-selling tours to Turkey and visiting its regions...</p>
 				    	<p className="font-bold text-[#152238]">$600,000,00</p>
 				    </div>
